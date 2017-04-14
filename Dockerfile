@@ -1,7 +1,7 @@
 #########################
 # graylog sidecar       #
 #########################
-FROM debian:jessie-slim
+FROM prima/filebeat
 
 LABEL maintainer "Sami Pajunen <sami.pajunen@digia.com>"
 
