@@ -12,5 +12,5 @@ tags: ${GS_TAGS}
 backends:
     - name: filebeat
       enabled: true
-      binary_path: /usr/bin/filebeat
+      binary_path: /bin/filebeat
       configuration_path: /etc/graylog/collector-sidecar/generated/filebeat.yml
